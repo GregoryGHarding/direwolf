@@ -127,9 +127,6 @@
 // I thought it would make sense to put it here, so it will apply to all files,
 // consistently, rather than only one file ptt.c.
 
-// The placement of this is critical.  Putting it earlier was a problem.
-// https://github.com/wb2osz/direwolf/issues/113
-
 // It needs to be after the include pthread.h because
 // pthread.h pulls in <sys/cdefs.h>, which redefines __DARWIN_C_LEVEL back to ansi,
 // which breaks things.
