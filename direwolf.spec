@@ -12,8 +12,8 @@ Summary:        Soundcard based AX.25 TNC
 
 Group:          Applications/Communications
 License:        GPLv2
-URL:            https://github.com/wb2osz/direwolf
-#Source0:        https://github.com/wb2osz/direwolf/archive/%{name}-%{version}.tar.gz
+URL:            https://github.com/GregoryGHarding/direwolf
+
 Source:         %{name}-%{version}-%{git_suffix}.tgz
 Packager:       David Ranch (KI6ZHD) <dranch@trinnet.net>
 Distribution:   RedHat Linux
